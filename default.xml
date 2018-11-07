@@ -5,6 +5,10 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-9.0.0_r10" />
+  
+   <!-- Gitlab remote -->
+           <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -600,7 +604,7 @@
   <project name="LineageOS/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="lineage-16.0"/>
   <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-16.0"/>
   <project name="LiquidRemix-Devices/android_device_qcom_common" path="device/qcom/common" remote="github" revision="pie"/>
-  <project name="BlackDeaths/pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="pie" />
+  <project name="BlackDeaths/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="p9x" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- GZOSP manifest -->
