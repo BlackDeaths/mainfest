@@ -606,7 +606,7 @@
   <project name="LiquidRemix-Devices/android_device_qcom_common" path="device/qcom/common" remote="github" revision="pie"/>
   <project name="BlackDeaths/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="p9x" />
   <project name="BlackDeaths/android_device_google_marlin" path="device/google/marlin" remote="github" revision="pie"/>
-  <project name="LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="lineage-16.0"/>	
+  <project name="DirtyUnicorns/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="p9x"/>	
   <project name="BlackDeaths/android_device_google_sailfish" path="device/google/sailfish" remote="github" revision="pie"/>
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
